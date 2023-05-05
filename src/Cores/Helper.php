@@ -2,12 +2,12 @@
 
 namespace EHD_Cores;
 
-use EHD\Cores\Traits\File;
-use EHD\Cores\Traits\Plugin;
-use EHD\Cores\Traits\Wp;
+use EHD_Cores\Traits\File;
+use EHD_Cores\Traits\Plugin;
+use EHD_Cores\Traits\Wp;
 
-use EHD\Cores\Traits\Elementor;
-use EHD\Cores\Traits\WooCommerce;
+use EHD_Cores\Traits\Elementor;
+use EHD_Cores\Traits\WooCommerce;
 
 \defined('ABSPATH') || die;
 

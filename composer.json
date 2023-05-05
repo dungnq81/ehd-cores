@@ -1,6 +1,6 @@
 {
-  "name": "ehd/ehd-css",
-  "description": "Creates minified css via PHP",
+  "name": "ehd/ehd-cores",
+  "description": "Cores libraries for EHD theme",
   "license": "MIT",
   "authors": [
     {
@@ -10,7 +10,13 @@
   ],
   "autoload": {
     "psr-4": {
-      "EHD_CSS\\": "src/"
+      "EHD_Cores\\": "src/Cores/",
+      "EHD_Walkers\\": "src/Walkers/"
     }
+  },
+  "require": {
+    "php": ">=7.4",
+    "ehd/ehd-css": "^v1.0.0",
+    "vectorface/whip": "^v0.4.0"
   }
 }
